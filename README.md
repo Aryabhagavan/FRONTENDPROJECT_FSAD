@@ -28,3 +28,4 @@ Default admin:
 React frontend should run separately with `npm run dev` and calls this backend at `http://localhost:2026/api`.
 "# FRONTENDPROJECT_FSAD" 
 "# BACKENDPROJECT_FSAD" 
+"# BACKENDPROJECT_FSAD" 
