@@ -13,4 +13,11 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+<<<<<<< HEAD
+=======
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+>>>>>>> 9174854aee83f73de7284228aa22c858863d166a
 </section>

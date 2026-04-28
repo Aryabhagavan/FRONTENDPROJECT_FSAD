@@ -1,0 +1,23 @@
+spring.application.name=SpringSecurityBackendDemo
+
+server.port=2026
+
+spring.datasource.url=jdbc:mysql://localhost:3306/mydb
+spring.datasource.username=root
+spring.datasource.password=Arya@9951
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.format_sql=true
+
+app.jwt.secret=AgriConnectJwtSecretKeyForSpringSecurityBackendDemo2026MustBeLong
+app.jwt.expiration-ms=86400000
+app.frontend.url=http://localhost:5173
+
+springdoc.swagger-ui.path=/swagger-ui.html
+springdoc.api-docs.path=/v3/api-docs
+
+# OAuth (Google) optional. Prefer environment-specific secrets instead of committing them.
+# spring.security.oauth2.client.registration.google.client-id=${GOOGLE_CLIENT_ID:}
+# spring.security.oauth2.client.registration.google.client-secret=${GOOGLE_CLIENT_SECRET:}
+# spring.security.oauth2.client.registration.google.scope=email,profile

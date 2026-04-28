@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nspire Farming Society Backend
 
 Spring Boot backend for the farming awareness and farmer support platform.
@@ -29,3 +30,6 @@ React frontend should run separately with `npm run dev` and calls this backend a
 "# FRONTENDPROJECT_FSAD" 
 "# BACKENDPROJECT_FSAD" 
 "# BACKENDPROJECT_FSAD" 
+=======
+"# FRONTENDPROJECT_FSAD" 
+>>>>>>> 9174854aee83f73de7284228aa22c858863d166a
