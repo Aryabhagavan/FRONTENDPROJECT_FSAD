@@ -1,0 +1,30 @@
+# Maven build output
+target/
+*.class
+*.jar
+*.war
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.eclipse/
+.settings/
+.metadata/
+.classpath
+.project
+*.factorypath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Spring Boot local config (override in Railway via env vars)
+# application-local.properties
+
+# M2 local cache (don't commit)
+.m2/
