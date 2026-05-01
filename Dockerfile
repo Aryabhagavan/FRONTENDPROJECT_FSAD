@@ -19,7 +19,8 @@ WORKDIR /app
 # Copy the built JAR from the builder stage
 COPY --from=builder /app/target/*.jar app.jar
 
-# Railway injects PORT dynamically; Spring Boot reads it via ${PORT:2026}
+# Railway injects PORT dynamically; Spring Boot reads it via server.port=${PORT:8080}
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+# Use shell form so ${PORT} is expanded at runtime by the OS
+ENTRYPOINT ["sh", "-c", "java -Dserver.port=${PORT:-8080} -jar app.jar"]
